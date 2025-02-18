@@ -49,3 +49,9 @@ git switch <branchName> - newer but not works with all older versions of git
 
 - Clear terminal commands
 clear
+
+Merge feature branch to main/master branch
+- git merge <branchName>
+
+delete branch
+- git branch -d <branchName>
