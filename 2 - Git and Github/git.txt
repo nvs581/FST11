@@ -32,4 +32,7 @@ R - renamed
 - Show commit history
 git log
 - Show comit history (summarized)
-git log --oneline
+git log --onelinegi
+
+- Clear terminal commands
+clear
