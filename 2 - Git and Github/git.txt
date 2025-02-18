@@ -61,8 +61,11 @@ git remote add origin "repository-url"
 - Set branch to main
 git branch -M main
 
-- Push local repository to remote repository
+- Push local repository to remote repository (first time push)
 git push -u origin main
 
 - confirm connection to remote repository
 git remove -v
+
+- push local repository to remote repository (once connection has been established)
+git push
