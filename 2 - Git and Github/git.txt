@@ -50,8 +50,19 @@ git switch <branchName> - newer but not works with all older versions of git
 - Clear terminal commands
 clear
 
-Merge feature branch to main/master branch
-- git merge <branchName>
+- Merge feature branch to main/master branch
+git merge <branchName>
 
 delete branch
 - git branch -d <branchName>
+
+- Add a remote to local repository
+git remote add origin "repository-url"
+- Set branch to main
+git branch -M main
+
+- Push local repository to remote repository
+git push -u origin main
+
+- confirm connection to remote repository
+git remove -v
