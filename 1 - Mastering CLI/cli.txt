@@ -1,0 +1,13 @@
+GUI (Graphical User Interface): A visual interface for interacting with a computer using graphical elements like windows, icons, and buttons.
+CLI (Command Line Interface): A text-based interface for interacting with a computer by typing commands.
+mkdir: Command to create a new directory.
+ls: Command to list the contents of a directory.
+cd: Command to change the current directory.
+touch: Command in Linux to create a new file.
+echo.>: Command in Windows to create a new file.
+rm: Command to delete or remove files.
+rmdir: Command to remove or delete a directory.
+pwd: Command to print the current working directory.
+cd ..: Command to change to the parent directory.
+cd FileToCopy NewFile (Or Destination): Command to copy a file to a new location or rename it.
+mv: Command to move or rename a file.
