@@ -46,3 +46,6 @@ git branch -a
 - change branch
 git checkout <branchName>
 git switch <branchName> - newer but not works with all older versions of git
+
+- Clear terminal commands
+clear
