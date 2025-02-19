@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <!-- HTML: Hyper-text Markup Language -->
+    <!-- HTML Boilerplate: ! + Enter/Tab -->
+    <!-- Create a commen: CTRL + / -->
+
+    <!-- Collects user Input for Data -->
+    <h1>HTML Forms</h1>
+
+    <!-- Breakdown or Space -->
+    <br /><br />
+
+    <hr />
+    <form action="">
+      <div>
+        <label for="user-name">Name: </label>
+        <input
+          placeholder="John Doe"
+          type="text"
+          id="user-name"
+          name="user-Fullname"
+        /><br /><br />
+      </div>
+      <!-- email -->
+      <div>
+        <label for="user-email">Email: </label>
+        <input
+          required
+          type="email"
+          placeholder="sample@email.com"
+          id="user-email"
+          name="user-email"
+        />
+      </div>
+      <br />
+      <!-- for="" should be the same with the id="" -->
+      <div>
+        <label for="password-id">Password: </label>
+        <input
+          type="password"
+          name="user-password"
+          id="password-id"
+          placeholder="***********"
+          required
+        />
+      </div>
+
+      <div>
+        <br />
+        <label for="age-id">Age: </label>
+        <input
+          type="number"
+          name="user-age"
+          id="age-id"
+          placeholder="18"
+          required
+          min="18"
+          max="100"
+        />
+      </div>
+
+      <br />
+      <div>
+        <label for="message-id">Message: </label>
+        <textarea
+          type="text"
+          name="user-message"
+          id="message-id"
+          placeholder="Sample Text Message"
+          rows="3"
+          cols="50"
+        ></textarea>
+      </div>
+
+      <div>
+        <br />
+        <label for="gender-id">Gender: </label>
+        <select name="user-gender" id="gender-id">
+          <option value="none" disabled selected hidden>
+            -- Select Your Gender --
+          </option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="others">Others</option>
+        </select>
+      </div>
+
+      <div>
+        <br />
+        <h3>Profile Status</h3>
+        <input type="radio" name="profile-status" id="private-id" />
+        <label for="private-id">Private</label>
+
+        <input type="radio" name="profile-status" id="public-id" />
+        <label for="public-id">Public</label>
+      </div>
+
+      <div>
+        <br />
+        <label for="movies-id">Movie Genres you like:</label><br />
+        <input
+          type="checkbox"
+          id="action-movies"
+          name="movies"
+          value="action"
+        />
+        <label for="action-movies">Action</label><br />
+        <input
+          type="checkbox"
+          id="comedy-movies"
+          name="movies"
+          value="comedy"
+        />
+        <label for="comedy-movies">Comedy</label><br />
+        <input type="checkbox" id="drama-movies" name="movies" value="drama" />
+        <label for="drama-movies">Drama</label><br />
+        <input
+          type="checkbox"
+          id="horror-movies"
+          name="movies"
+          value="horror"
+        />
+        <label for="horror-movies">Horror</label><br />
+        <input
+          type="checkbox"
+          id="sci-fi-movies"
+          name="movies"
+          value="sci-fi"
+        />
+        <label for="sci-fi-movies">Sci-Fi</label><br />
+      </div>
+
+      <br />
+      <button type="reset">Reset</button>
+      <button type="submit">Submmit</button>
+    </form>
+    <hr />
+  </body>
+</html>
