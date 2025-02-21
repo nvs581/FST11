@@ -1,0 +1,103 @@
+#text-styling {
+  font-family: "Arial", Helvetica, sans-serif;
+
+  /* Font weight */
+  font-weight: normal; /* Default */
+  font-weight: bold;
+  font-weight: lighter;
+  font-weight: bolder;
+
+  /* Font weight - NUMERICAL */
+  font-weight: 100;
+  font-weight: 200;
+  font-weight: 300;
+  font-weight: 400; /* Default */
+  font-weight: 500;
+  font-weight: 600;
+  font-weight: 700;
+  font-weight: 800;
+  font-weight: 900;
+
+  /* Font-style */
+  font-style: normal; /* Default */
+  font-style: italic;
+  font-style: oblique;
+
+  /* Text-align */
+  text-align: center;
+  text-align: left;
+  text-align: right;
+  text-align: justify;
+
+  /* Line Height */
+  line-height: normal; /* Default */
+  line-height: 1.5em;
+  line-height: 150%;
+  line-height: 24px;
+
+  /* Letter Spacing */
+  letter-spacing: normal; /* Default */
+  letter-spacing: 1px;
+  letter-spacing: 0.1em;
+}
+
+#text-decoration {
+  /* Text Decoration Line */
+  text-decoration-line: none; /* Default */
+  text-decoration-line: underline;
+  text-decoration-line: overline;
+  text-decoration-line: line-through;
+  /* Text Decoration Style */
+  text-decoration-style: solid; /* Default */
+  text-decoration-style: double;
+  text-decoration-style: dotted;
+  text-decoration-style: dashed;
+  text-decoration-style: wavy;
+  /* Text Decoration Color */
+  text-decoration-color: currentColor; /* Default */
+  text-decoration-color: red;
+  text-decoration-color: #ff0000;
+  text-decoration-color: rgb(255, 0, 0);
+  text-decoration-color: hsl(0, 100%, 50%);
+  text-decoration-color: transparent;
+  /* Text Decoration Thickness */
+  text-decoration-thickness: 5px;
+  /* Text Decoration Shorthand */
+  text-decoration: underline dotted red;
+  text-decoration: underline overline wavy #ff0000;
+  text-decoration: overline underline line-through;
+  text-decoration: overline dotted red 2px;
+}
+
+#colors {
+  /* Colors */
+  /* Color Names */
+  color: white;
+  background-color: black;
+
+  /* RGB */
+  /* red, green, blue, alpha (opacity) */
+  /* (0, 0, 0, 0) */ /* Black */
+  /* (255, 255, 255, 1) */ /* White */
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.5);
+
+  /* Hexadecimal */
+  /* 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 */
+  /* A - 10, B - 11, C - 12, D - 13, E -14, F - 15 */
+  /* #000000 */
+  color: #00ff00;
+  background-color: #0000ffff;
+}
+
+#absolute-unit-px {
+  font-size: 50px;
+}
+
+#relative-unit-em {
+  font-size: 2em;
+}
+
+#relative-unit-rem {
+  font-size: 2rem;
+}

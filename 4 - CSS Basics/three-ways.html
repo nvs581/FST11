@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Three Ways</title>
+    <!-- CSS - Cascading Style Sheets -->
+    <!-- Syntax (RULES): selector {property: value;} -->
+
+    <!-- External Styling -->
+    <link rel="stylesheet" href="three-ways.css" />
+
+    <!-- Internal Styling -->
+    <!-- Selectors: are certain elemnts in HTML
+     # - for selecting an ID of an element -->
+    <style>
+      #internal-styling {
+        color: green;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Inline Styling -->
+    <!-- css code inside the opening tag of the HTML Tag in the form of attribute-->
+    <p style="color: blue; font-size: 12px">
+      This is a paragraph with inline styling.
+    </p>
+
+    <!-- Internal Styling -->
+    <p id="internal-styling">This is a paragraph with internal styling.</p>
+
+    <!-- External Styling -->
+    <p id="external-styling">This is a paragraph with external styling.</p>
+  </body>
+</html>

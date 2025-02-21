@@ -1,0 +1,62 @@
+.box1 {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+/* Padding Shorthand */
+/* 1 value - all sides */
+/* 2 values - top bottom / left right */
+/* 3 values - top / left right / bottom */
+/* 4 values - top / right / bottom / left */
+.box2 {
+  padding: 10px;
+  padding: 20px 10px;
+  padding: 5px 10px 20px;
+  padding: 5px 10px 15px 20px;
+}
+
+/* Margin */
+.box3 {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Margin Shorthand */
+/* 1 value - all sides */
+/* 2 values - top bottom / left right */
+/* 3 values - top / left right / bottom */
+/* 4 values - top / right / bottom / left */
+.box4 {
+  margin: 20px 20px 10px 20px;
+}
+
+.mix-borders {
+  height: 100px;
+  width: 200px;
+  /* style - solid dashed dotted double */
+  border-style: dotted;
+  border-color: pink;
+  /* Shorthand */
+  /* 1 value - all sides */
+  /* 2 values - top bottom / left right */
+  /* 3 values - top / left right / bottom */
+  /* 4 values - top / right / bottom / left */
+  border-width: 4px 8px 12px;
+  border: 10px solid brown;
+}
+/* Cirle Container */
+.circle-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #f00;
+  text-align: center;
+}
+.circle-container h2 {
+  line-height: 100px;
+  margin: 0;
+}
